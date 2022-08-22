@@ -1,0 +1,21 @@
+{
+    "name": "bluecube/charter-php",
+    "description": "Chartisan's PHP backend",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Matteo Sposato",
+            "email": "msposato.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chartisan\\PHP\\": "src/"
+        }
+    }
+}
